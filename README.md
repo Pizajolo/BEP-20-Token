@@ -4,3 +4,7 @@ This is a BEP-20 Token smart contract with an included 5% fee. The fee is deduct
 ## 5% Fee
 The Owner Wallet gets everything if he doesn't set a marketing address. If the marketing address is set, the marketing wallet receives 20% of the 5% fee by default. The percentage that the marketing address receives can be changed by the owner and has to stay between 0 and 100.
 Also, addresses can be excluded from the fee, so they don't need to pay it.
+
+## Acknowledgement
+I programmed the smart contract on base of a standard [BEP-20 Token]("https://docs.binance.org/smart-chain/developer/issue-BEP20.html").
+I toke the [safemoon token](https://github.com/safemoonprotocol/Safemoon.sol), it's functions and features as guidline.
